@@ -1,10 +1,10 @@
 import './App.css';
-import SlotMachine from './SlotMachine';
+import LottoMachine from './LottoMachine/LottoMachine';
 
 function App() {
   return (
     <div className="App">
-      <SlotMachine />
+      <LottoMachine />
     </div>
   );
 }
