@@ -1,10 +1,10 @@
 import './App.css';
-import LottoMachine from './LottoMachine/LottoMachine';
+import Lottery from './Lottery/Lottery';
 
 function App() {
   return (
     <div className="App">
-      <LottoMachine />
+      <Lottery title="Mega Lotto" balls="6" maxNum="40" />
     </div>
   );
 }
